@@ -4,7 +4,7 @@ using Razor.Templating.Core;
 
 var builder = WebApplication.CreateBuilder(args);
 
-License.LicenseKey = "IRONSUITE.SHAHNOOR.KHALIDI.INLOOP.COM.AU.3882-495ED37D38-B6JU3BXKCQFGA3-6NNYZXN6DWPT-U5PO2UXQSNCP-YYH4O3J4I2J2-DBOS2KBLE5HD-E67YJVL7FZT5-C3FP3E-TW7LRWTV5KGMEA-DEPLOYMENT.TRIAL-N5VVV4.TRIAL.EXPIRES.05.APR.2024";
+License.LicenseKey = "License Key";
 
 builder.Services.AddEndpointsApiExplorer();
 
