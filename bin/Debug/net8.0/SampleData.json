@@ -1,0 +1,952 @@
+{
+  "supplierName": "Balanced Living Catering School Supplier",
+  "summary": "223 orders, 223 labels",
+  "itemCategories": [
+    {
+      "itemCategoryKey": "b5c060c5-4b2d-41c4-951c-5a5c38f1baed",
+      "categoryName": "Daily Lunch Specials",
+      "sequence": 1,
+      "orderItemList": [
+        {
+          "itemName": "Wednesday - Sushi",
+          "quantity": 50,
+          "isContinued": false,
+          "orderItemDetailsList": [
+            {
+              "itemOption": "Teriyaki Chicken",
+              "quantity": 34,
+              "orderIds": [
+                "170502610,170503775,170529368",
+                "170529368,170592996,170592996",
+                "170593440,170593440,170596907",
+                "170597504,170601852,170605394",
+                "170605394,170609845,170654300",
+                "170654300,170668338",
+                ""
+              ]
+            },
+            {
+              "itemOption": "Tuna & Mayo",
+              "quantity": 14,
+              "orderIds": [
+                "170503775,170539964,170540040",
+                "170593046,170593046,170649047",
+                "170649047",
+                ""
+              ]
+            },
+            {
+              "itemOption": "Vegetarian",
+              "quantity": 2,
+              "orderIds": [
+                "170316980"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "itemCategoryKey": "01e2ca51-9c4a-4d88-a251-dda6ab6aa432",
+      "categoryName": "Meal Deals",
+      "sequence": 2,
+      "orderItemList": [
+        {
+          "itemName": "Meal Deal 1",
+          "quantity": 6,
+          "isContinued": false,
+          "orderItemDetailsList": [
+            {
+              "itemOption": "Cookie, Whlemeal Sandwich,\nApple Juice, Cheese, Ham",
+              "quantity": 1,
+              "orderIds": [
+                "170674663",
+                ""
+              ]
+            },
+            {
+              "itemOption": "Cookie, Whlemeal Sandwich,\nApple Juice, Cranberry\nSauce, Sweet Chilli Sauce,\nTandoori Chicken, Tuna",
+              "quantity": 1,
+              "orderIds": [
+                "170593528",
+                ""
+              ]
+            },
+            {
+              "itemOption": "White Sandwich, Cookie,\nApple Juice, Cheese,\nTandoori Chicken",
+              "quantity": 1,
+              "orderIds": [
+                "170687680",
+                ""
+              ]
+            },
+            {
+              "itemOption": "White Sandwich, Cookie,\nApple Juice, Cheese, Ham",
+              "quantity": 1,
+              "orderIds": [
+                "170673937",
+                ""
+              ]
+            },
+            {
+              "itemOption": "White Sandwich, Mayonnaise,\nWhole Fruit, Apple Juice,\nLettuce, Tandoori Chicken",
+              "quantity": 1,
+              "orderIds": [
+                "170679615",
+                ""
+              ]
+            },
+            {
+              "itemOption": "White Sandwich, Mayonnaise,\nWhole Fruit, Avocado, Apple\nJuice, Tuna",
+              "quantity": 1,
+              "orderIds": [
+                "170669573",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "itemName": "Meal Deal 2",
+          "quantity": 17,
+          "isContinued": false,
+          "orderItemDetailsList": [
+            {
+              "itemOption": "Mini Sausage Rolls x2,\nCookie, Apple Juice",
+              "quantity": 5,
+              "orderIds": [
+                "170520447,170672916,170673071",
+                "170683646,170686708",
+                ""
+              ]
+            },
+            {
+              "itemOption": "Mini Sausage Rolls x2,\nCookie, Orange Juice",
+              "quantity": 2,
+              "orderIds": [
+                "170515156,170681344",
+                ""
+              ]
+            },
+            {
+              "itemOption": "Mini Sausage Rolls x2,\nCookie, Tropical Juice",
+              "quantity": 2,
+              "orderIds": [
+                "170593920,170602889",
+                ""
+              ]
+            },
+            {
+              "itemOption": "Mini Sausage Rolls x2, Whole\nFruit, Tropical Juice",
+              "quantity": 1,
+              "orderIds": [
+                "170515149",
+                ""
+              ]
+            },
+            {
+              "itemOption": "Party Pies x2, Cookie,\nOrange Juice",
+              "quantity": 2,
+              "orderIds": [
+                "170096733,170687503",
+                ""
+              ]
+            },
+            {
+              "itemOption": "Party Pies x2, Cookie,\nTropical Juice",
+              "quantity": 2,
+              "orderIds": [
+                "170591184,170686166",
+                ""
+              ]
+            },
+            {
+              "itemOption": "Party Pies x2, Cookie, Apple\nJuice",
+              "quantity": 1,
+              "orderIds": [
+                "170597473",
+                ""
+              ]
+            },
+            {
+              "itemOption": "Party Pies x2, Popcorn,\nApple Juice",
+              "quantity": 1,
+              "orderIds": [
+                "170680661",
+                ""
+              ]
+            },
+            {
+              "itemOption": "Popcorn, Mini Sausage Rolls\nx2, Orange Juice",
+              "quantity": 1,
+              "orderIds": [
+                "170504326",
+                ""
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "itemCategoryKey": "05d1a74c-d169-4235-9b4a-d47ba1f8896b",
+      "categoryName": "Hot Food",
+      "sequence": 4,
+      "orderItemList": [
+        {
+          "itemName": "Chunky Beef Pie",
+          "quantity": 9,
+          "isContinued": false,
+          "orderItemDetailsList": [
+            {
+              "itemOption": "",
+              "quantity": 9,
+              "orderIds": [
+                "170670124,170670256,170670272",
+                "170670316,170675677,170676100"
+              ]
+            }
+          ]
+        },
+        {
+          "itemName": "Corn on the Cob",
+          "quantity": 5,
+          "isContinued": false,
+          "orderItemDetailsList": [
+            {
+              "itemOption": "",
+              "quantity": 5,
+              "orderIds": [
+                "170529252,170674516,170678796",
+                "170680792,170680792",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "itemName": "Hot Dog",
+          "quantity": 64,
+          "isContinued": false,
+          "orderItemDetailsList": [
+            {
+              "itemOption": "Plain",
+              "quantity": 9,
+              "orderIds": [
+                "170366626,170647625,170669485",
+                "170678338,170679420,170680015",
+                "170682167,170684533,170687262",
+                ""
+              ]
+            },
+            {
+              "itemOption": "With Cheese & Sauce",
+              "quantity": 21,
+              "orderIds": [
+                "170529252,170531371,170590421",
+                "170593518,170594346,170595918",
+                "170601554,170618157,170643348",
+                "170665142,170666692,170666727",
+                "170668012,170668023,170668658",
+                "170668661,170669406,170669728",
+                "170670864,170670940,170673575"
+              ]
+            },
+            {
+              "itemOption": "With Sauce",
+              "quantity": 38,
+              "orderIds": [
+                "170674804,170675449,170675801",
+                "170677543,170677559,170677727",
+                "170677727,170678111,170678192",
+                "170678192,170680874,170681514",
+                "170681766,170682033,170683921",
+                "170686763,170687274",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "itemName": "Macaroni & Cheese",
+          "quantity": 3,
+          "isContinued": false,
+          "orderItemDetailsList": [
+            {
+              "itemOption": "",
+              "quantity": 3,
+              "orderIds": [
+                "170675224",
+                "170675264",
+                "170686718"
+              ]
+            }
+          ]
+        },
+        {
+          "itemName": "Mini Frankfurt",
+          "quantity": 19,
+          "isContinued": false,
+          "orderItemDetailsList": [
+            {
+              "itemOption": "",
+              "quantity": 19,
+              "orderIds": [
+                "170502277,170502277,170502277",
+                "170502277,170502277,170506600",
+                "170506600,170506600,170639105",
+                "170674217,170674217,170674217",
+                "170675591,170675591,170675591",
+                "170678796,170678893,170683921",
+                "170683921",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "itemName": "Mini Sausage Roll",
+          "quantity": 44,
+          "isContinued": false,
+          "orderItemDetailsList": [
+            {
+              "itemOption": "",
+              "quantity": 44,
+              "orderIds": [
+                "170502267,170502267,170502267",
+                "170502267,170595918,170595918",
+                "170600394,170600394,170600529",
+                "170607340,170607340,170668336",
+                "170671853,170671853,170671883",
+                "170671883,170673378,170673378",
+                "170673378,170674127,170674127",
+                "170674127,170674171,170674171",
+                "170674171,170674804,170675413",
+                "170675413,170675787,170675787",
+                "170676191,170676191,170676625",
+                "170676625,170676625,170677266",
+                "170677266,170678536,170678536",
+                "170679420,170679627,170679627",
+                "170683425,170683425",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "itemName": "Oven Baked Chicken Nuggets",
+          "quantity": 116,
+          "isContinued": false,
+          "orderItemDetailsList": [
+            {
+              "itemOption": "",
+              "quantity": 116,
+              "orderIds": [
+                "170595904,170595904,170595904",
+                "170595904,170595904,170595918",
+                "170595918,170595918,170600529",
+                "170600529,170607340,170607340",
+                "170607340,170618282,170618282",
+                "170618282,170618282,170618282",
+                "170618282,170639105,170639105",
+                "170639105,170639105,170647625",
+                "170647625,170647625,170666727",
+                "170666727,170668611,170668611",
+                "170668611,170668611,170668658",
+                "170668658,170668661,170668661",
+                "170669615,170669615,170669687",
+                "170669687,170669687,170669687",
+                "170670033,170670033,170670033",
+                "170671853,170671853,170672647",
+                "170672647,170672647,170672647",
+                "170673104,170674127,170674127",
+                "170674127,170674127,170674127",
+                "170674127,170674203,170674203",
+                "170674203,170675461,170675461",
+                "170675461,170675461,170675461",
+                "170675461,170675526,170675526",
+                "170675526,170675526,170675526",
+                "170675526,170675595,170675595",
+                "170675595,170675595,170675595",
+                "170675595,170675677,170675677",
+                "170675677,170675787,170675787",
+                "170675787,170675787,170676125",
+                "170676125,170676924,170678172",
+                "170678172,170678796,170680204",
+                "170680204,170680204,170680204",
+                "170680261,170680261,170682102",
+                "170682102,170682102,170682102",
+                "170682102,170682102,170682724",
+                "170682724,170682724,170682724",
+                "170683921,170683921,170683921",
+                "170685147,170685147,170685147",
+                "170685147,170685147",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "itemName": "Oven Baked Hash Browns",
+          "quantity": 19,
+          "isContinued": false,
+          "orderItemDetailsList": [
+            {
+              "itemOption": "",
+              "quantity": 19,
+              "orderIds": [
+                "170366626,170520110,170594346",
+                "170669687,170669687,170671883",
+                "170672647,170675461,170675461",
+                "170675971,170676125,170680045",
+                "170680045,170680261,170680261",
+                "170682033,170682102,170682428",
+                "170682428",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "itemName": "Party Pie",
+          "quantity": 58,
+          "isContinued": false,
+          "orderItemDetailsList": [
+            {
+              "itemOption": "",
+              "quantity": 58,
+              "orderIds": [
+                "170503751,170503751,170503751",
+                "170503751,170503751,170504326",
+                "170592171,170592171,170592171",
+                "170600394,170600394,170639105",
+                "170666692,170666692,170668336",
+                "170669615,170669687,170670376",
+                "170670376,170670400,170670400",
+                "170670400,170671951,170672015",
+                "170672015,170672628,170672628",
+                "170672628,170674915,170675357",
+                "170675357,170675357,170676125",
+                "170676125,170676191,170676924",
+                "170676924,170677266,170677266",
+                "170677323,170677323,170678172",
+                "170678172,170678536,170678562",
+                "170678562,170678562,170678893",
+                "170679772,170679772,170679772",
+                "170680204,170680261,170682428",
+                "170684661,170684661,170684661",
+                "170684661",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "itemName": "Steamed Dim Sim",
+          "quantity": 18,
+          "isContinued": false,
+          "orderItemDetailsList": [
+            {
+              "itemOption": "",
+              "quantity": 18,
+              "orderIds": [
+                "170503755,170503755,170503755",
+                "170503755,170503755,170669728",
+                "170670033,170670033,170673164",
+                "170673164,170674636,170674636",
+                "170674636,170675224,170677974",
+                "170677974,170680045,170680045",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "itemName": "Stir fry chicken and vegetables with rice",
+          "quantity": 4,
+          "isContinued": false,
+          "orderItemDetailsList": [
+            {
+              "itemOption": "",
+              "quantity": 4,
+              "orderIds": [
+                "170042911,170193492,170625873",
+                "170670408",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "itemName": "Tomato Sauce Sachet",
+          "quantity": 19,
+          "isContinued": false,
+          "orderItemDetailsList": [
+            {
+              "itemOption": "",
+              "quantity": 19,
+              "orderIds": [
+                "170502267,170595918,170595918",
+                "170595918,170618282,170618282",
+                "170670124,170670256,170670272",
+                "170673378,170674804,170675591",
+                "170676924,170677266,170677266",
+                "170678172,170680204,170680749",
+                "170682428",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "itemName": "Vegetarian Spring Roll",
+          "quantity": 4,
+          "isContinued": false,
+          "orderItemDetailsList": [
+            {
+              "itemOption": "",
+              "quantity": 4,
+              "orderIds": [
+                "170625873,170675857,170675857",
+                "170678796",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "itemName": "Veggie Burger",
+          "quantity": 1,
+          "isContinued": false,
+          "orderItemDetailsList": [
+            {
+              "itemOption": "Lettuce, Tomato, Cheese, Mayo",
+              "quantity": 1,
+              "orderIds": [
+                "170679777"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "itemCategoryKey": "69bf18f0-b026-48be-831b-06ea48969562",
+      "categoryName": "Sandwiches",
+      "sequence": 5,
+      "orderItemList": [
+        {
+          "itemName": "Build Your Own - 2 Fillings",
+          "quantity": 3,
+          "isContinued": false,
+          "orderItemDetailsList": [
+            {
+              "itemOption": "White Sandwich, Ham, Cheese, Toasted",
+              "quantity": 1,
+              "orderIds": [
+                "170679607"
+              ]
+            },
+            {
+              "itemOption": "Wholemeal Sandwich, Ham, Cheese",
+              "quantity": 1,
+              "orderIds": [
+                "170680614"
+              ]
+            },
+            {
+              "itemOption": "Wholemeal Sandwich, Ham, Cheese, Toasted",
+              "quantity": 1,
+              "orderIds": [
+                "170682591"
+              ]
+            }
+          ]
+        },
+        {
+          "itemName": "Build Your Own - 3 Fillings",
+          "quantity": 1,
+          "isContinued": false,
+          "orderItemDetailsList": [
+            {
+              "itemOption": "White Sandwich, Tuna, Cucumber, Lettuce, Toasted, Mayonnaise",
+              "quantity": 1,
+              "orderIds": [
+                "170685634"
+              ]
+            }
+          ]
+        },
+        {
+          "itemName": "Cheese",
+          "quantity": 1,
+          "isContinued": false,
+          "orderItemDetailsList": [
+            {
+              "itemOption": "White Sandwich, Toasted",
+              "quantity": 1,
+              "orderIds": [
+                "170673104"
+              ]
+            }
+          ]
+        },
+        {
+          "itemName": "Chicken, Cheese & Avocado",
+          "quantity": 1,
+          "isContinued": false,
+          "orderItemDetailsList": [
+            {
+              "itemOption": "Wholemeal Sandwich, Toasted",
+              "quantity": 1,
+              "orderIds": [
+                "169557292"
+              ]
+            }
+          ]
+        },
+        {
+          "itemName": "Ham & Cheese",
+          "quantity": 5,
+          "isContinued": false,
+          "orderItemDetailsList": [
+            {
+              "itemOption": "White Sandwich, Toasted",
+              "quantity": 1,
+              "orderIds": [
+                "170675857"
+              ]
+            },
+            {
+              "itemOption": "Wholemeal Sandwich",
+              "quantity": 2,
+              "orderIds": [
+                "170677352,170679380",
+                ""
+              ]
+            },
+            {
+              "itemOption": "Wholemeal Sandwich, Toasted",
+              "quantity": 2,
+              "orderIds": [
+                "170515980,170674915",
+                ""
+              ]
+            }
+          ]
+        }
+      ]
+    },
+
+
+    {
+      "itemCategoryKey": "925aa4ad-59d7-4873-b14c-201b37d4f9d5",
+      "categoryName": "Salads",
+      "sequence": 6,
+      "orderItemList": [
+        {
+          "itemName": "Chicken Salad",
+          "quantity": 1,
+          "isContinued": false,
+          "orderItemDetailsList": [
+            {
+              "itemOption": "Small, No Red Onion",
+              "quantity": 1,
+              "orderIds": [
+                "170674265",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "itemName": "Egg Salad",
+          "quantity": 1,
+          "isContinued": false,
+          "orderItemDetailsList": [
+            {
+              "itemOption": "Small",
+              "quantity": 1,
+              "orderIds": [
+                "170678301",
+                ""
+              ]
+            }
+          ]
+        }
+      ]
+    },
+
+
+    {
+      "itemCategoryKey": "dfae801e-902d-4948-adf0-71eb05374690",
+      "categoryName": "Treats",
+      "sequence": 7,
+      "orderItemList": [
+        {
+          "itemName": "Banana Bread",
+          "quantity": 4,
+          "isContinued": false,
+          "orderItemDetailsList": [
+            {
+              "itemOption": "",
+              "quantity": 4,
+              "orderIds": [
+                "170593240,170597504,170675611",
+                "170675801",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "itemName": "Cookie",
+          "quantity": 72,
+          "isContinued": false,
+          "orderItemDetailsList": [
+            {
+              "itemOption": "",
+              "quantity": 72,
+              "orderIds": [
+                "170502267,170502267,170502277",
+                "170502277,170601554,170601554",
+                "170654300,170668531,170668658",
+                "170668661,170669730,170670048",
+                "170672015,170672042,170672097",
+                "170673439,170673462,170674127",
+                "170674203,170674217,170674516",
+                "170675449,170675526,170675591",
+                "170677266,170678415,170678893",
+                "170680015,170680261,170681514",
+                "170682167,170685147,170686209",
+                "170687274,170687298,170767266",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "itemName": "Fresh Seasonal Fruit Salad",
+          "quantity": 1,
+          "isContinued": false,
+          "orderItemDetailsList": [
+            {
+              "itemOption": "",
+              "quantity": 1,
+              "orderIds": [
+                "170670575"
+              ]
+            }
+          ]
+        },
+        {
+          "itemName": "Fruit Kebab with Drizzled Chocolate Sauce",
+          "quantity": 1,
+          "isContinued": false,
+          "orderItemDetailsList": [
+            {
+              "itemOption": "",
+              "quantity": 1,
+              "orderIds": [
+                "170592996"
+              ]
+            }
+          ]
+        },
+        {
+          "itemName": "Jelly Cup",
+          "quantity": 58,
+          "isContinued": false,
+          "orderItemDetailsList": [
+            {
+              "itemOption": "",
+              "quantity": 58,
+              "orderIds": [
+                "169557292,170316980,170506600",
+                "170601852,170609915,170618157",
+                "170639105,170668531,170668658",
+                "170668661,170669485,170670940",
+                "170671853,170672076,170674171",
+                "170674636,170675264,170675595",
+                "170677129,170678536,170678562",
+                "170679777,170680045,170680874",
+                "170681040,170682737,170683425",
+                "170683646,170683921",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "itemName": "Mixed Berry Muffin",
+          "quantity": 1,
+          "isContinued": false,
+          "orderItemDetailsList": [
+            {
+              "itemOption": "",
+              "quantity": 1,
+              "orderIds": [
+                "170618282"
+              ]
+            }
+          ]
+        },
+        {
+          "itemName": "Muffin",
+          "quantity": 4,
+          "isContinued": false,
+          "orderItemDetailsList": [
+            {
+              "itemOption": "Blueberry",
+              "quantity": 1,
+              "orderIds": [
+                "170544465"
+              ]
+            },
+            {
+              "itemOption": "Chocolate",
+              "quantity": 3,
+              "orderIds": [
+                "170600529,170681003,170681040",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "itemName": "Popcorn - Air Popped",
+          "quantity": 2,
+          "isContinued": false,
+          "orderItemDetailsList": [
+            {
+              "itemOption": "",
+              "quantity": 2,
+              "orderIds": [
+                "170595904,170673937",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "itemName": "Vanilla Yoghurt",
+          "quantity": 1,
+          "isContinued": false,
+          "orderItemDetailsList": [
+            {
+              "itemOption": "",
+              "quantity": 1,
+              "orderIds": [
+                "170673104"
+              ]
+            }
+          ]
+        },
+        {
+          "itemName": "Vanilla Yoghurt w/ Fresh Mixed Berries & Berry Sauce",
+          "quantity": 2,
+          "isContinued": false,
+          "orderItemDetailsList": [
+            {
+              "itemOption": "",
+              "quantity": 2,
+              "orderIds": [
+                "170675971,170681811",
+                ""
+              ]
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "itemCategoryKey": "8730f47b-7c5c-4512-945f-74b9dec7e5dd",
+      "categoryName": "Thirst Quencher",
+      "sequence": 8,
+      "orderItemList": [
+        {
+          "itemName": "Bottled Water",
+          "quantity": 1,
+          "isContinued": false,
+          "orderItemDetailsList": [
+            {
+              "itemOption": "",
+              "quantity": 1,
+              "orderIds": [
+                "170544465"
+              ]
+            }
+          ]
+        },
+        {
+          "itemName": "Flavoured Milk Box",
+          "quantity": 36,
+          "isContinued": false,
+          "orderItemDetailsList": [
+            {
+              "itemOption": "Chocolate",
+              "quantity": 28,
+              "orderIds": [
+                "170675643,170675801,170676299",
+                "170677727,170678111,170678172",
+                "170678172,170678192",
+                ""
+              ]
+            },
+            {
+              "itemOption": "Strawberry",
+              "quantity": 8,
+              "orderIds": [
+                "170618157,170669728,170673439",
+                "170675449,170675611,170675787",
+                "170678338,170685147",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "itemName": "Juice Box",
+          "quantity": 25,
+          "isContinued": false,
+          "orderItemDetailsList": [
+            {
+              "itemOption": "Apple",
+              "quantity": 16,
+              "orderIds": [
+                "170594346,170647625,170654300",
+                "170665142,170670048,170672002",
+                "170673104,170675677,170676178",
+                "170676924,170677266,170677659",
+                "170679420,170679772,170682724",
+                "170767266",
+                ""
+              ]
+            },
+            {
+              "itemOption": "Orange",
+              "quantity": 2,
+              "orderIds": [
+                "170601554",
+                "170672647"
+              ]
+            },
+            {
+              "itemOption": "Tropical",
+              "quantity": 7,
+              "orderIds": [
+                "170618282,170668012,170670033",
+                "170675591,170682591,170683425",
+                "170684229",
+                ""
+              ]
+            }
+          ]
+        }
+      ]
+    }
+
+  ]
+}

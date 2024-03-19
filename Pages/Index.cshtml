@@ -1,0 +1,266 @@
+﻿@using Items_Report.Models
+@model Items_Report.Models.Root
+
+@{
+    Layout = "_Layout.cshtml";
+}
+
+<style>
+    body {
+        font-family: "Lucida Console", Monaco, monospace;
+        color: black;
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        border: 1px solid black;
+        font-family: "Lucida Console", Monaco, monospace;
+    }
+
+    th, td {
+        border: 1px solid black;
+        padding: 8px;
+        text-align: left;
+        font-size: 13px;
+    }
+
+    th {
+        background-color: #f2f2f2;
+    }
+
+    .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 1px solid black;
+        padding-bottom: 10px;
+        margin-bottom: 20px;
+        font-size: 16px;
+    }
+
+        .header h1 {
+            margin: 0;
+        }
+
+        .header p, .header span {
+            margin: 0;
+        }
+
+    .summary-info {
+        font-family: "Lucida Console", Monaco, monospace;
+        font-size: 16px;
+        color: black;
+        display: flex;
+        justify-content: space-between;
+    }
+
+        .summary-info .supplier-name {
+            margin: 0;
+            text-align: left;
+            flex-direction: column;
+        }
+
+        .summary-info .summary-text {
+            margin: 0;
+            text-align: right;
+        }
+
+        .summary-info .generated-info {
+            margin: 0;
+            text-align: right;
+            margin-left: auto; /* Ensure alignment to the right */
+            margin-top: 1em;
+        }
+
+    .column-width {
+        width: 20%;
+    }
+
+    .column-qty {
+        width: 5%;
+    }
+
+    .summary-divider {
+        border: 0;
+        border-top: 1px solid black;
+        margin: 20px 0;
+    }
+
+    .generated-info {
+        display: block;
+        margin-top: 3em;
+        font-size: 12px;
+    }
+
+
+
+
+    @@media print {
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            border: 1px solid black;
+            font-family: "Lucida Console", Monaco, monospace;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            font-size: 13px;
+        }
+
+        .column-qty {
+            width: 8%;
+            !important
+        }
+
+        .column-width {
+            width: 30%;
+            !important
+        }
+
+        .column-order-id {
+            width: 30%;
+            !important 
+            word-break: break-all;
+            line-height: 1.2;
+        }
+
+        .header,
+        .header h1,
+        .header p,
+        .header span,
+        .summary-info,
+        .generated-line {
+            width: 130%;
+            border-collapse: collapse;
+        }
+
+
+        .header {
+            font-family: "Lucida Console", Monaco, monospace;
+            color: black;
+        }
+
+            .header h1,
+            .header p,
+            .header span {
+                font-family: "Lucida Console", Monaco, monospace;
+                font-size: 16px;
+                color: black;
+                margin: 0;
+            }
+
+            .header h1 {
+                text-align: left;
+                margin-right: auto;
+            }
+
+            .header p {
+                text-align: right;
+                margin-left: 5%;
+            }
+
+            .header span {
+                text-align: right;
+                margin-left: auto;
+            }
+
+        .summary-info {
+            width: 100%;
+        }
+
+            .summary-info .supplier-name {
+                text-align: left;
+            }
+
+            .summary-info .summary-text {
+                text-align: right;
+            }
+
+            .summary-info .generated-info {
+                text-align: right;
+                margin-left: auto; /* Ensure alignment to the right */
+            }
+
+        .generated-line {
+            border: none;
+            border-top: 2px solid black;
+            margin-top: 5px;
+            margin-bottom: 5px;
+            border-color: black;
+        }
+
+        table tbody tr:last-child td {
+            border-bottom: 1px solid black;
+        }
+    }
+</style>
+
+<head>
+    <title>Items Summary Report</title>
+    <link href="https://cdn.tailwindcss.com/3.4.1/tailwind.min.css" rel="stylesheet">
+</head>
+
+
+<div class="summary-info">
+    <p class="supplier-name">@Model.supplierName</p>
+    <p class="summary-text">@Model.summary <span class="generated-info" style="margin-left: auto;">Generated on @DateTime.Now.ToString("MM/dd/yyyy 'at' h:mm tt")</span></p>
+</div>
+
+
+
+
+<div style="margin-bottom: 20px;"></div>
+
+<div style="margin: -10px 0 0 -15%;">
+    <hr width="112%" style="border: none; border-top: 1px solid black;">
+</div>
+
+
+
+@foreach (var itemCategory in Model?.itemCategories ?? Enumerable.Empty<ItemCategory>())
+{
+
+    <table>
+        <thead>
+            <tr>
+                <th colspan="5">@itemCategory.categoryName</th>
+            </tr>
+            <tr>
+                <th class="column-qty">QTY</th>
+                <th class="column-width">Item</th>
+                <th class="column-qty">QTY</th>
+                <th class="column-width">Item Options</th>
+                <th class="column-order-id">Order Ids</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var orderItemList in itemCategory.orderItemList)
+            {
+                @foreach (var orderItemDetails in orderItemList.orderItemDetailsList)
+                {
+                    <tr>
+                        @if (orderItemList.orderItemDetailsList.IndexOf(orderItemDetails) == 0)
+                        {
+                            <td rowspan="@orderItemList.orderItemDetailsList.Count" style="vertical-align: top; font-size: 13px;">@orderItemList.quantity</td>
+                            <td rowspan="@orderItemList.orderItemDetailsList.Count" style="vertical-align: top; font-size: 13px;">@orderItemList.itemName</td>
+                        }
+                        <td style="vertical-align: top; font-size: 13px;">@orderItemDetails.quantity</td>
+                        <td style="vertical-align: top; font-size: 13px;">@orderItemDetails.itemOption</td>
+                        <td style="vertical-align: top; font-size: 13px;">@string.Join(" ", orderItemDetails.orderIds)</td>
+                    </tr>
+                }
+            }
+        </tbody>
+        
+        <tfoot>
+        <tr>
+            <td colspan="5">&nbsp;</td>
+        </tr>
+        </tfoot>
+        
+    </table>
+
+
+}

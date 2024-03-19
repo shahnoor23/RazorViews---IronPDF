@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Report-Razor-IronPDF.props" />
+</Project>
