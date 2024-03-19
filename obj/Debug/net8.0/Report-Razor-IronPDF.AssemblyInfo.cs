@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Report-Razor-IronPDF")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0140db26c04675d5bf7da8d42acd71aa8d58486d")]
 [assembly: System.Reflection.AssemblyProductAttribute("Report-Razor-IronPDF")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Report-Razor-IronPDF")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
